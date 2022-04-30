@@ -1,0 +1,31 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "dev": "nodemon ./lib/server.js",
+    "server": "node ./lib/server.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroMorales-s/code-challenge.git"
+  },
+  "author": "Alejandro Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroMorales-s/code-challenge/issues"
+  },
+  "homepage": "https://github.com/AlejandroMorales-s/code-challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^26.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
