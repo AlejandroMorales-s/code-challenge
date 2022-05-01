@@ -8,7 +8,6 @@ Esta API, a partir del archivo **JSON** obtiene:
 
 Usando **endpoints** específicos para cada requerimiento.
 
----
 
 ## Como ejecutar el proyecto
 ### Descarga el proyecto en tu computadora
@@ -27,7 +26,6 @@ $ npm run server
 ```
 Este comando habilitará el servidor para que puedas verlo en la sig url: [localhost:3000](http://localhost:3000)
 
----
 
 ## Endpoints
 Este API tiene diferentes endpoints para cada requerimiento, los cuáles son:
@@ -35,7 +33,6 @@ Este API tiene diferentes endpoints para cada requerimiento, los cuáles son:
 * Para obtener el email de los estudiantes que tienen certificación: [localhost:3000/students/emails](http://localhost:3000/students/emails)
 * Para obtener la lista de los estudiantes que tengan más de 500 créditos: [localhost:3000/students/credits](http://localhost:3000/students/credits)
 
----
 
 ## Dependencias
 Las dependencias usadas en el proyecto son:
